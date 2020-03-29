@@ -1,0 +1,17 @@
+feature	code	value
+DSEX	A	Male
+DSEX	B 	Female
+DEDUC	A	Less than a Bachelor's Degree
+DEDUC	B	Bachelor's Degree
+DEDUC	C	Beyond a Bachelor's Degree
+DFEDTEN	A	Ten years or fewer
+DFEDTEN	B	Between 10 and 20 years
+DFEDTEN	C	More than 20 years
+DSUPER	A	Non-Supervisor/Team Leader
+DSUPER	B	Supervisor/Manager/Senior Leader
+DMINORITY	A	Minority
+DMINORITY	B	Non-Minority
+DLEAVING	A	No
+DLEAVING	B	"Yes, to take another Federal job"
+DLEAVING	C	"Yes, to take a job outside Federal Gov"
+DLEAVING	D	Other

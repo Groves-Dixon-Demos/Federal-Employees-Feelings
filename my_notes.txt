@@ -1,0 +1,44 @@
+#my_notes.txt
+#Notes on federal employee viewpoint survey
+
+
+#------- Big picture:
+We've asked federal employees questions about their work,
+and gotten the demongraphic data. Finaly, we know whether they
+plan to leave the job.
+
+#------- Problem:
+People want to leave, and we want to know why.
+We'll try to use the questions we asked and demographic data to find out
+
+#------- Upload and glance:
+Outcome variable is DLEAVING
+Outcome has 4 options (need to simplify these)
+We have 71 questions with ordinal responses.
+Most of these are fully ordinal, but some coersed to strings because of a "don't know" option
+Also have 7 categorical demongraphic predictors and agency things
+
+#------- Clean/Prepare data:
+#check the Read Me file and the Codebook spreadsheet
+Tasks to prepare data:
+	coding:
+	1. data is encoded with letters, will make a function for translating these back out when plotting
+	
+	outcome:
+	1. remove individuals we don't know response
+	2. create new 'leaving' variable that is yes or no
+
+	questions
+	1. check how many "don't knows" there are, if new, impute these to median
+	2. choose whether each should be ordinal or not
+	
+	demongraphic
+	1. these also have missing data. Since they are categorical, imputing is tricky. How to handle depends on what we want to know
+	
+	
+
+	
+
+Explore data
+	Are any demographic groups or agencies particularly prone to leaving?
+	1. PCAs by demography
